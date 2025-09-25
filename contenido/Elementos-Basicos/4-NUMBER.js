@@ -21,4 +21,18 @@ const resultado = 0.1 + 0.2
 console.log(resultado)
 console.log(resultado.toFixed(1))
 console.log(resultado.toFixed(1) == 0.3)
+//Operaciones avanzadas
+const raizCuadrada = Math.sqrt(16)
+const valorAbsoluto = Math.abs(-5)
+const aleatorio = Math.floor(Math.random()*20)
+console.log(aleatorio)
 
+//lenguajes de programacion:
+//Copilados:java(JVM -> .java -> .class), C, C++ (C -> .c -> .exe)
+//Interpretado: javaScript -> lee -> ejecuta linea por linea
+
+const numero = 2
+const booleano = true
+const texto = "hola"
+//conversion implicita
+console.log(numero+booleano)
