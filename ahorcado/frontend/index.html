@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Juego del Ahorcado</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Juego del Ahorcado</h1>
+        
+        <div class="dibujo-ahorcado">
+            <div id="ahorcado">
+                <div id="horca">
+                    <div class="poste-vertical"></div>
+                    <div class="poste-horizontal"></div>
+                    <div class="soga"></div>
+                </div>
+                <div id="cabeza" class="parte-cuerpo oculto"></div>
+                <div id="cuerpo" class="parte-cuerpo oculto"></div>
+                <div id="brazo-izquierdo" class="parte-cuerpo oculto"></div>
+                <div id="brazo-derecho" class="parte-cuerpo oculto"></div>
+                <div id="pierna-izquierda" class="parte-cuerpo oculto"></div>
+                <div id="pierna-derecha" class="parte-cuerpo oculto"></div>
+            </div>
+        </div>
+
+        <div class="area-palabra">
+            <div id="palabra-secreta"></div>
+        </div>
+
+        <div class="informacion-juego">
+            <p>Intentos restantes: <span id="intentos">7</span></p>
+            <p>Letras usadas: <span id="letras-usadas">Ninguna</span></p>
+        </div>
+
+        <div class="area-letras">
+            <div id="botones-letras"></div>
+        </div>
+
+        <div id="mensaje" class="mensaje oculto"></div>
+
+        <button id="nuevo-juego" class="boton-nuevo-juego">Nuevo Juego</button>
+    </div>
+
+    <script src="../backend/game.js"></script>
+</body>
+</html>
